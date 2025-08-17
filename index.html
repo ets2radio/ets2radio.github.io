@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<html Language="ru-RU"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html lang="ru"><head>
 	<meta charset="UTF-8">
-	<meta Link="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>ETS2radio</title>
-<meta Link="robots" content="noindex, nofollow">
-
-<link rel="stylesheet" id="wp-block-library-css" href="index_files/style.min.css" media="all">
-<style id="classic-theme-styles-inline-css">
-
-</style>
-
-<link rel="stylesheet" id="hello-elementor-css" href="index_files/style.min_002.css" media="all">
-<link rel="stylesheet" id="hello-elementor-theme-style-css" href="index_files/theme.min.css" media="all">
-<link rel="stylesheet" id="elementor-frontend-css" href="index_files/frontend-lite.min.css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="index_files/tablepress-combined.min.css" media="all">
-<link rel="stylesheet" id="google-fonts-1-css" href="index_files/css.css" media="all">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><script src="index_files/jquery.min.js" id="jquery-core-js"></script>
+ 	<meta name="robots" content="noindex, nofollow">
+  	<link rel="stylesheet" id="wp-block-library-css" href="index_files/style.min.css" media="all">
+  	<style id="classic-theme-styles-inline-css">
+  	.nowrap { white-space: nowrap; }
+  	.site-title .title-row { display: flex; align-items: center; justify-content: center; gap: 40px; flex-wrap: nowrap; }
+  	.site-title .title-row a { display: inline-block; white-space: nowrap; }
+  	</style>
+ 
+ 	<link rel="stylesheet" id="hello-elementor-css" href="index_files/style.min_002.css" media="all">
+ 	<link rel="stylesheet" id="hello-elementor-theme-style-css" href="index_files/theme.min.css" media="all">
+ 	<link rel="stylesheet" id="elementor-frontend-css" href="index_files/frontend-lite.min.css" media="all">
+  <link rel="stylesheet" id="tablepress-default-css" href="index_files/tablepress-combined.min.css" media="all">
+  <link rel="stylesheet" id="google-fonts-1-css" href="index_files/css.css" media="all">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <style id="custom-header-fix">
+    #site-header { width: 100% !important; left: 0 !important; }
+    #site-header .header-inner { width: 100% !important; padding: 0 16px !important; margin: 0 auto !important; }
+    .site-branding.alignwide { margin-left: auto !important; margin-right: auto !important; }
+    .site-title { text-align: left !important; font-size: 1.8rem !important; line-height: 1.2 !important; font-weight: 600 !important; margin: 16px 0 !important; color: #3c3c3c !important; }
+    .site-title .title-row { display: flex !important; width: 100% !important; align-items: center !important; justify-content: space-between !important; gap: 0 !important; flex-wrap: nowrap !important; }
+    .site-title .title-row a { color: inherit !important; text-decoration: none !important; display: inline-block !important; white-space: nowrap !important; overflow-wrap: normal !important; word-break: normal !important; hyphens: manual !important; font-size: 1em !important; font-weight: 600 !important; }
+    .site-title a { color: inherit !important; font-size: inherit !important; font-weight: inherit !important; text-decoration: none !important; }
+    #site-header a:link, #site-header a:visited { color: inherit !important; }
+    .site-title .title-row a:link, .site-title .title-row a:visited { color: inherit !important; }
+    .site-title .title-row a:hover { text-decoration: underline !important; }
+    /* Hide header title, we'll render the title row inside content area */
+    #site-header .site-title { display: none !important; }
+    /* New content title row aligned with table container */
+    .title-row-content { display: flex; justify-content: space-between; align-items: center; margin: 16px auto; font-size: 1.8rem; font-weight: 600; color: #3c3c3c; width: 65%; box-sizing: border-box; }
+    .title-row-content.alignwide { margin-left: auto; margin-right: auto; }
+    .title-row-content a { color: inherit; text-decoration: none; white-space: nowrap; }
+    .title-row-content a:hover { text-decoration: underline; }
+    /* Keep DataTables wrapper full-width; table and title use 65% centered like TablePress */
+    #tablepress-2_wrapper { width: 100% !important; margin-left: auto !important; margin-right: auto !important; }
+  </style>
+  <script src="index_files/jquery.min.js" id="jquery-core-js"></script>
 </head>
 <body class="home page-template-default page page-id-23 elementor-default elementor-kit-38">
 
 
 
 
-<header id="site-header" class="site-header dynamic-header menu-dropdown-tablet" role="banner" style="left: 120px;width: 1000px;">
+<header id="site-header" class="site-header dynamic-header menu-dropdown-tablet" role="banner">
 
 
 
-	<div class="header-inner" style="width: 100%;margin-left: 380px;">
+	<div class="header-inner">
 
-		<div class="site-branding show-title">
+		<div class="site-branding show-title alignwide">
 							<h1 class="site-title show">
 					
-							<center><a href="index.html" title="ETS2radio" rel="home" style="margin-left;">ETS2radio</a><a href="https://eurotrucksimulator2.com/" style="margin-left: 280px;">EuroTrackSimulator2</a></center>
+							<div class="title-row"><a href="index.html" title="ETS2radio" rel="home">ETS2radio</a><a href="https://eurotrucksimulator2.com/" class="nowrap">Euro Truck Simulator 2</a></div>
 						
 				</h1>
 					</div>
@@ -55,9 +77,9 @@
 <div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"><div class="wp-block-group__inner-container">
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:100%">
-<div id="tablepress-2_wrapper" class="dataTables_wrapper no-footer"><table id="tablepress-2" class="tablepress tablepress-id-2 dataTable no-footer">
+<div id="tablepress-2_wrapper" class="dataTables_wrapper no-footer"><div class="title-row-content"><a href="index.html" title="ETS2radio" rel="home">ETS2radio</a><a href="https://eurotrucksimulator2.com/" class="nowrap" target="_blank" rel="noopener noreferrer">Euro Truck Simulator 2</a></div><table id="tablepress-2" class="tablepress tablepress-id-2 dataTable no-footer">
 <thead>
-<tr class="row-1 odd"><th class="column-1 sorting" tabindex="0" aria-controls="tablepress-2" rowspan="1" colspan="1" style="width: 200.4px;" aria-label="Link: активировать для сортировки столбца по возрастанию">Link</th><th class="column-2 sorting" tabindex="0" aria-controls="tablepress-2" rowspan="1" colspan="1" style="width: 150.4px;" aria-label="Gene: активировать для сортировки столбца по возрастанию">Gene</th><th class="column-3 sorting" tabindex="0" aria-controls="tablepress-2" rowspan="1" colspan="1" style="width: 100.683px;" aria-label="Language: активировать для сортировки столбца по возрастанию">Language</th><th class="column-4 sorting" tabindex="0" aria-controls="tablepress-2" rowspan="1" colspan="1" style="width: 100.317px;" aria-label="Bitrate (Kb/s): активировать для сортировки столбца по возрастанию">Bitrate (Kb/s)</th></tr>
+<tr class="row-1 odd"><th class="column-1 sorting" tabindex="0" aria-controls="tablepress-2" rowspan="1" colspan="1" style="width: 200.4px;" aria-label="Link: активировать для сортировки столбца по возрастанию">Link</th><th class="column-2 sorting" tabindex="0" aria-controls="tablepress-2" rowspan="1" colspan="1" style="width: 150.4px;" aria-label="Genre: активировать для сортировки столбца по возрастанию">Genre</th><th class="column-3 sorting" tabindex="0" aria-controls="tablepress-2" rowspan="1" colspan="1" style="width: 100.683px;" aria-label="Language: активировать для сортировки столбца по возрастанию">Language</th><th class="column-4 sorting" tabindex="0" aria-controls="tablepress-2" rowspan="1" colspan="1" style="width: 100.317px;" aria-label="Bitrate (Kb/s): активировать для сортировки столбца по возрастанию">Bitrate (Kb/s)</th></tr>
 </thead>
 <tbody class="row-hover">
 
@@ -641,8 +663,9 @@
 <script src="index_files/jquery.datatables.min.js" id="tablepress-datatables-js"></script>
 <script>
 jQuery(function($){
-var DT_Languageuage={"ru_RU":{"info":"Записи с _START_ до _END_ из _TOTAL_ записей","infoEmpty":"Записи с 0 до 0 из 0 записей","infoFiltered":"(отфильтровано из _MAX_ записей)","infoPostFix":"","lengthMenu":"Показать _MENU_ записей","processing":"Подождите...","search":"Поиск:","zeroRecords":"Записи отсутствуют.","paginate":{"first":"Первая","previous":"Предыдущая","next":"Следующая","last":"Последняя"},"aria":{"sortAscending":": активировать для сортировки столбца по возрастанию","sortDescending":": активировать для сортировки столбцов по убыванию"},"decimal":",","thousands":"."}};
-$('#tablepress-2').DataTable({"Languageuage":DT_Languageuage["ru_RU"],"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"paging":false,"searching":false,"info":false});
+var DT_language={"ru_RU":{"info":"Записи с _START_ до _END_ из _TOTAL_ записей","infoEmpty":"Записи с 0 до 0 из 0 записей","infoFiltered":"(отфильтровано из _MAX_ записей)","infoPostFix":"","lengthMenu":"Показать _MENU_ записей","processing":"Подождите...","search":"Поиск:","zeroRecords":"Записи отсутствуют.","paginate":{"first":"Первая","previous":"Предыдущая","next":"Следующая","last":"Последняя"},"aria":{"sortAscending":": активировать для сортировки столбца по возрастанию","sortDescending":": активировать для сортировки столбцов по убыванию"},"decimal":",","thousands":"."}};
+$('#tablepress-2').DataTable({"language":DT_language["ru_RU"],"order":[],"orderClasses":false,"stripeClasses":["even","odd"],"paging":false,"searching":false,"info":false});
+document.querySelectorAll('#tablepress-2 tbody a').forEach(function(a){ a.target = '_blank'; a.rel = 'noopener noreferrer'; });
 });
 </script>
 
